@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.pizzadjack.SignUpController">
+   <children>
+      <AnchorPane layoutY="368.0" prefHeight="42.0" prefWidth="601.0" style="-fx-background-color: #F4A460;" />
+      <AnchorPane prefHeight="42.0" prefWidth="601.0" style="-fx-background-color: #F4A460;" />
+      <AnchorPane layoutY="32.0" prefHeight="348.0" prefWidth="50.0" style="-fx-background-color: #F4A460;" />
+      <AnchorPane layoutX="551.0" layoutY="36.0" prefHeight="335.0" prefWidth="50.0" style="-fx-background-color: #F4A460;" />
+      <AnchorPane layoutX="50.0" layoutY="42.0" prefHeight="323.0" prefWidth="6.0" />
+      <TextField fx:id="signUpName" layoutX="342.0" layoutY="107.0" promptText="Имя" />
+      <TextField fx:id="login_field" layoutX="90.0" layoutY="107.0" promptText="Логин" />
+      <PasswordField fx:id="password_field" layoutX="89.0" layoutY="148.0" promptText="Пароль" />
+      <Text layoutX="199.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация" wrappingWidth="229.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="signUpButton" layoutX="228.0" layoutY="290.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="145.0" text="Войти" />
+      <TextField fx:id="signUpLastName" layoutX="342.0" layoutY="148.0" promptText="Фамилия" />
+      <TextField fx:id="signUpAdress" layoutX="215.0" layoutY="206.0" promptText="Адрес" />
+      <TextField fx:id="signUpTelephone" layoutX="215.0" layoutY="247.0" promptText="Телефон" />
+      <Button fx:id="exit" layoutX="451.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#exit" text="Выход" />
+   </children>
+</AnchorPane>
